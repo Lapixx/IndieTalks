@@ -1,0 +1,23 @@
+{
+  "name": "IndieTalks",
+  "version": "0.0.1",
+  "description": "IndieTalks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lapixx/IndieTalks.git"
+  },
+  "author": "Tijn Kersjes",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/Lapixx/IndieTalks/issues"
+  },
+  "homepage": "https://github.com/Lapixx/IndieTalks",
+  "dependencies": {
+    "connect": "^3.3.5",
+    "serve-static": "^1.9.2"
+  }
+}
