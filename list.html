@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Indie Talks</title>
+
+    <link href="default.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icon.png" />
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transulent">
+
+  </head>
+  <body>
+
+    <div class="wrap" style="padding-bottom: 32px">
+
+      <h1>Indie Talks</h1>
+
+      {{#talks}}
+
+      <div class="talk">
+        <a href="{{slug}}">
+          <p>
+            <b>{{title}}</b><br>
+            {{speaker.name}}
+          </p>
+        </a>
+      </div>
+
+      {{/talks}}
+
+    </div>
+
+    <div class="more">
+      <div class="wrap">
+        <p>
+          This website is still in active development.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

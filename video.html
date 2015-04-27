@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>{{title}} &ndash; Indie Talks</title>
+
+    <link href="default.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icon.png" />
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transulent">
+
+  </head>
+  <body>
+
+    <div class="wrap">
+
+      <div class="video">
+        <iframe src="https://player.vimeo.com/video/{{vimeo}}?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <div class="info">
+        <h1>{{title}}</h1>
+        <p class="meta">
+          <a href="{{speaker.url}}">{{speaker.name}}</a>{{#if speaker.company}} ({{speaker.company}}){{/if}} / {{date}} / {{location}}
+        </p>
+        <p>
+          {{description}}
+        </p>
+      </div>
+
+    </div>
+
+    <div class="more">
+
+      <div class="wrap">
+        <p>
+          <a href="/" class="back">&lsaquo; Back to home</a>
+        </p>
+      </div>
+
+      <!-- <div class="wrap">
+
+        <a href="#" class="thumb">
+          <img src="https://i.vimeocdn.com/video/{{vimeo}}_300x168.webp">
+        </a>
+
+        <a href="#" class="thumb">
+          <img src="https://i.vimeocdn.com/video/{{vimeo}}_300x168.webp">
+        </a>
+
+        <a href="#" class="thumb">
+          <img src="https://i.vimeocdn.com/video/{{vimeo}}_300x168.webp">
+        </a>
+
+        <a href="#" class="thumb">
+          <img src="https://i.vimeocdn.com/video/{{vimeo}}_300x168.webp">
+        </a>
+
+        <a href="#" class="thumb">
+          <img src="https://i.vimeocdn.com/video/{{vimeo}}_300x168.webp">
+        </a>
+
+      </div> -->
+
+    </div>
+
+  </body>
+</html>

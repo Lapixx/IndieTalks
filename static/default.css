@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   background-color: #1F242A;
+  color: #FFFFFF;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 }
 
 .wrap {
-  max-width: 720px;
+  max-width: 850px;
   height: 100%;
   padding: 0;
   margin: 0 auto;
@@ -60,6 +61,31 @@ a:hover {
   text-decoration: underline;
 }
 
+.talk {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #333333;
+}
+
+.talk > a {
+  color: #DDDDDD;
+  display: block;
+  padding: 16px;
+}
+
+.talk > a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.talk b {
+  color: #5f5fef;
+}
+
+.talk > a:hover b {
+  color: #8f8fff;
+}
+
 .video, .info {
   margin: 50px 0;
 }
@@ -67,7 +93,7 @@ a:hover {
 .video {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 .video iframe {
   margin: 0;
@@ -82,22 +108,29 @@ a:hover {
 .more {
   background-color: #000000;
   color: #FFFFFF;
-  padding: 1px 0 32px;
+  padding: 32px 0;
 }
 
-.thumb, .spacer {
+/*.more .wrap {
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+a.thumb {
   display: inline-block;
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
-  float: left;
-}
-
-.thumb {
+  margin: 0 10px;
   border: 2px solid #5f5fef;
   width: 30%;
 }
 
-.spacer {
-  width: 5%;
+a.thumb:hover {
+  border-color: #8f8fff;
 }
+
+a.thumb img {
+  border: none;
+  width: 100%;
+  height: 100%;
+}*/
