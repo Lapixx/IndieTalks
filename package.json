@@ -4,6 +4,7 @@
   "description": "IndieTalks",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,6 @@
   },
   "homepage": "https://github.com/Lapixx/IndieTalks",
   "dependencies": {
-    "connect": "^3.3.5",
     "express": "^4.12.3",
     "handlebars": "^3.0.2",
     "serve-static": "^1.9.2"
