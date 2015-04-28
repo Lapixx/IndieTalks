@@ -5,9 +5,9 @@ var serveStatic = require("serve-static");
 var Handlebars = require("handlebars");
 
 // handlebars templates
-var video = fs.readFileSync("./video.html", {encoding: "UTF8"});
+var video = fs.readFileSync("./templates/video.html", {encoding: "UTF8"});
 var video_template = Handlebars.compile(video);
-var list = fs.readFileSync("./list.html", {encoding: "UTF8"});
+var list = fs.readFileSync("./templates/list.html", {encoding: "UTF8"});
 var list_template = Handlebars.compile(list);
 
 // load the video info
